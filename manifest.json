@@ -1,6 +1,6 @@
 {
   "name": "McAutoStore",
-  "version_number": "1.2.0",
+  "version_number": "1.2.1",
   "website_url": "",
   "description": "One key stores your inventory into nearby containers, and dropped items are pulled in when a container already holds them. No item loss.",
   "dependencies": [

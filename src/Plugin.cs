@@ -8,11 +8,14 @@ namespace McAutoStore
 {
     [BepInPlugin(Guid, Name, Version)]
     [BepInProcess("valheim.exe")]
+    // Soft: if ExtraSlots is installed, BepInEx loads it before us, so the slot
+    // integration resolves at startup instead of on first use.
+    [BepInDependency("shudnal.ExtraSlots", BepInDependency.DependencyFlags.SoftDependency)]
     public class McAutoStorePlugin : BaseUnityPlugin
     {
         public const string Guid = "joaorodrigues.valheim.mcautostore";
         public const string Name = "McAutoStore";
-        public const string Version = "1.2.0";
+        public const string Version = "1.2.1";
 
         internal static ManualLogSource Log;
 
