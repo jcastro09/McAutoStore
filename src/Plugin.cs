@@ -15,7 +15,7 @@ namespace McAutoStore
     {
         public const string Guid = "joaorodrigues.valheim.mcautostore";
         public const string Name = "McAutoStore";
-        public const string Version = "1.2.1";
+        public const string Version = "1.2.2";
 
         internal static ManualLogSource Log;
 

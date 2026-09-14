@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.2.2
+- Packaging: `website_url` was empty in the manifest, so the 1.2.1 listing lost its
+  link back to the GitHub repository. No code change.
+
 ## 1.2.1
 - Fixed: with shudnal's ExtraSlots installed, items sitting in the extra slots were
   auto-stored into containers anyway. BepInEx loads ExtraSlots after this mod, so the

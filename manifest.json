@@ -1,7 +1,7 @@
 {
   "name": "McAutoStore",
-  "version_number": "1.2.1",
-  "website_url": "",
+  "version_number": "1.2.2",
+  "website_url": "https://github.com/jcastro09/McAutoStore",
   "description": "One key stores your inventory into nearby containers, and dropped items are pulled in when a container already holds them. No item loss.",
   "dependencies": [
     "denikson-BepInExPack_Valheim-5.4.2350"
